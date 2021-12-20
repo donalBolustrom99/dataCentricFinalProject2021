@@ -1,0 +1,18 @@
+<body>
+    <h1>Edit Module</h1> 
+    <ul>
+        <li>Module Name must be at least 5 Characters</li>
+        <li>Credits can be Either 5, 10 or 15</li>
+      </ul> 
+    <form action="/http://localhost:3000/listModules" method="get">
+        <label>Module ID:</label>
+        <input type="text" name="_id"><br>
+        <label>Name:</label>
+        <input type="text" name="name" minlength="5"><br>
+        <label>Credits:</label>
+        <input type="number" name="credits" value="5 || 10 || 15">
+        <button>Update</button>
+    </form>
+
+</body>
+<a href="/">Home</a>

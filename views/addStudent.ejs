@@ -1,0 +1,18 @@
+<body>
+    <h1>Add Student</h1>
+    <ul>
+        <li>Student ID Must be 4 Characters</li>
+        <li>Name must be at least 5 Characters</li>
+        <li>GPA must be between 0.0 and 4.0</li>
+      </ul>  
+    <form action="/addStudent" method="POST">
+        <label>Student ID:</label>
+        <input type="text" name="_id" minlength="4"><br>
+        <label>Name:</label>
+        <input type="text" name="name" minlength="5"><br>
+        <label>GPA:</label>
+        <input type="number" name="gpa" minlength="0" maxlength="4">
+        <button>Add</button>
+    </form>
+</body>
+<a href="/">Home</a>

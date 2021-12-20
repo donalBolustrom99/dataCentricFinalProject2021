@@ -1,0 +1,19 @@
+{
+  "name": "finalprojectdonal",
+  "version": "1.0.0",
+  "description": "Project for Data Centric with Gerald",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2",
+    "nodemon": "^2.0.15",
+    "promise-mysql": "^5.0.4"
+  }
+}

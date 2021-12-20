@@ -1,0 +1,18 @@
+<body>
+    <h1>Add Lecturer</h1>
+    <ul>
+        <li>Lecturer ID Must be 4 Characters</li>
+        <li>Name must be at least 5 Characters</li>
+        <li>Dept must be 3 Characters</li>
+      </ul>  
+    <form action="/addLecturer" method="post">
+        <label>Lecturer ID:</label>
+        <input type="text" name="_id" minlength="4"><br>
+        <label>Name:</label>
+        <input type="text" name="name" minlength="5"><br>
+        <label>Dept:</label>
+        <input type="text" name="dept" minlength="3">
+        <button>Add</button>
+    </form>
+</body>
+<a href="/">Home</a>
